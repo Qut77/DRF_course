@@ -16,7 +16,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from main.views import TripAPIView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('api/v1/triplist/', TripAPIView.as_view())
 ]
