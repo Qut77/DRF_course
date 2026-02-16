@@ -9,7 +9,7 @@
 
 **Backend:** Python 3.9.5, Django 4.2.28, Django Rest Framework 3.16.1
 **Database:** SQLite
-**Tools:** Git, Virtualenv  
+**Tools:** Postman, Git, Virtualenv
 
 ---
 
