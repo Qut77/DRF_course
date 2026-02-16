@@ -20,5 +20,6 @@ from main.views import TripAPIView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/v1/triplist/', TripAPIView.as_view())
+    path('api/v1/triplist/', TripAPIView.as_view()),
+    path('api/v1/triplist/<int:pk>', TripAPIView.as_view())
 ]
