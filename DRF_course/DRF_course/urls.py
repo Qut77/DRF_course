@@ -24,5 +24,6 @@ router.register(r'trip', TripViewSet)
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/v1/', include(router.urls))
+    path('api/v1/', include(router.urls)),
+    path('api/v1/drf-auth/', include('rest_framework.urls')),
 ]
